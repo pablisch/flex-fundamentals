@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    background-color: darkorange;
+    max-width: 1800px;
+    height: 500px;
+}
+
+.flex-item {
+    flex-grow: 1;
+    min-width: 100px;
+    min-height: 100px;
+    height: auto;
+    background-color: lightseagreen;
+    color: darkblue;
+    margin: 10px;
+}
+
+.flex-con-mini {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
